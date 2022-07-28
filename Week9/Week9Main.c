@@ -9,10 +9,14 @@
 #include <stdio.h>
 
 void q1(void);
+void q2(void);
+void q3(void);
 
 int main(void) {
 
-	q1();
+	//q1();
+	//q2();
+	q3();
 
 	return 0;
 }

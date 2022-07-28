@@ -18,7 +18,7 @@ typedef struct pet Pet;
 //The data type of Pet cannot just be struct, since there is no one true struct
 //Structs can come in many shapes and sizes so we need to be specific about what particular struct we are saying
 //that pet is defined by
-//In this case, Pet has the data type of 'struct pet'
+//In this case the data type of Pet is defined by 'struct pet'
 struct pet {
 	char name[MAX_LEN];
 	char breed[MAX_LEN];
